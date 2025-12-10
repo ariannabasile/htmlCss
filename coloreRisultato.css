@@ -1,0 +1,48 @@
+.classBody {
+    background-color: rgb(232, 232, 214);
+    margin: auto;
+    padding-left: 20px;
+    display:flex;
+    height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+#contenitorePrincipale{
+ display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+#selectColore {
+    width: 100px;
+    height: 30px;
+}
+
+#bloccoColore {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bottoni {
+    display: block;
+    margin-bottom: 3px;
+}
+.bloccoRisulto{
+    display:block;
+}
+#boxRisultato{
+    border-radius:50%;
+    height: 150px;
+    width: 150px;
+    border: solid 3px black;
+    background-color: gray;
+    
+}
+#bottoniSotto{
+  margin-top: 5px;
+    display: flex;
+    gap: 2px;
+}
